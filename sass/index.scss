@@ -1,0 +1,430 @@
+@charset "utf-8";
+body,div,p,ul,ol,dl,dt,dd,table,tr,td,hr,form,h1,h2,h3,h4,h5,h6,fieldset,a,span,strong,b,em,i,label,img,input,select,textarea{
+    margin:0;
+    padding:0;
+}
+    
+
+body,html{
+    height:100%;
+}
+a{
+   text-decoration:none;
+ }
+ ol,ul{
+     margin:0;
+     padding:0;
+     list-style:none;
+ }
+//头部导航
+.nav{
+    width:982px;
+    height:120px;
+    margin: 0 auto;
+   }
+.left{
+    float:left;
+}
+.nav .left img{
+    width:150px;
+    height:60px;
+    padding:20px 30px 40px 0;
+}
+.nav .right{
+    float:left;
+    margin-right:64px;
+    margin-top:42px;
+    padding-left:80px;
+ }
+.nav  .right .aa{
+     float:left;
+ }
+.nav .right .aa a{
+    color:#7fa967;
+    font-size:16px;
+    height:50px;
+    line-height: 50px;
+    display:inline-block;
+    width:98px;
+    border-right:1px solid #e4f1c6;
+    text-align: center;
+   
+}
+.nav .right .login {
+    float:right;
+    line-height: 60px;
+    margin-left:45px;
+    
+}
+.nav .right .login a{
+    color:#9abd8c;
+    font-size:12px;
+}
+.nav .right .login .twoa{
+   margin-left:20px;
+}
+.nav .right .login p{
+   display:inline-block;
+}
+.denglu:hover .onea{
+    border:1px solid #d3f3b9;
+    border-radius:4px;
+}
+.zhuce:hover .twoa{
+    border:1px solid #d3f3b9;
+    border-radius:4px;
+}
+
+//轮播图
+.slidebox{
+    position: relative;
+    width:982px;
+    height: 390px;
+    margin: 0 auto;
+ }
+.section{
+    height:390px; 
+    width:982px;
+  }
+.slidebox .imgs1{
+    position: absolute;
+    left: 5px;
+    top: 185px;
+}
+.slidebox .imgs2{
+    position: absolute;
+    left: 920px;
+    top: 185px;
+}
+//活动公告
+.huodong{
+    width:982px;
+    height:40px;
+    margin: 0 auto;
+    line-height:40px;
+    border-bottom:1px dotted  #ebe4d6;
+ }
+ .huodong .q1{
+     color:#ff6600;
+     font-size:12px;
+ }
+ .huodong a{
+     color:#ff6600;
+     font-size:12px;
+     padding-left:10px;
+ }
+ .huodong .q2{
+    color:#ff6600;
+    padding-left:54px;
+    font-size:12px;
+     
+ }
+.huodong .q3{
+    color:#02720c;
+    font-size:12px;
+    padding-left:106px;
+}
+//全部产品
+.bigbox{
+    width:982px;
+    height:49px;
+    margin:0 auto;
+    padding-top:35px;
+}
+.bigbox .w1{
+    width:195.5px;
+    height:50px;
+    float: left;
+    background-color:#ebf3e4;
+    text-align: center;
+    border-right:1px solid #c8e0c4;
+}
+.bigbox .w1 p{
+    color:#02720c;
+    font-size:14px;
+    padding-top: 6px;
+}
+.bigbox .w1 span{
+    color:#dfe483;
+    font-size:12px;
+    display:inline-block;  
+}
+.bigbox .w2{
+    width:195.5px;
+    height:50px;
+    float: left;
+    background-color:#ebf3e4;
+    text-align: center;
+ }
+.bigbox .w2 p{
+    color:#02720c;
+    font-size:14px;
+    padding-top: 6px;
+}
+.bigbox .w2 span{
+    color:#dfe483;
+    font-size:12px;
+    display:inline-block;  
+}
+.w1:hover{
+    background-color:#02720c;
+ }
+.w1:hover p{
+    color:#f5fbef;
+ }
+ .w1:hover span{
+    color:#f5fbef;
+ }
+ .w2:hover{
+    background-color:#02720c;
+ }
+.w2:hover p{
+    color:#f5fbef;
+ }
+ .w2:hover span{
+    color:#f5fbef;
+ }
+// 遮罩层
+.zhezhao{
+    width:982px;
+    height:940px;
+    margin:0 auto;
+}
+.zhezhao .dangao{
+    width:230px;
+    height:190px;
+    position:relative;
+    padding-top:30px;
+    overflow: hidden;
+    float:left;
+    margin-left:15px;
+ }
+
+.zhezhao .smallbox{
+    width:230px;
+    height:190px;
+    background-color:#87b56a;
+    position:absolute;
+    left:0;
+    top:380px;
+    opacity:.9;
+    transition:all 2s;
+    
+}
+.dangao:hover .smallbox{
+    top:30px;
+}
+.zhezhao .smallbox .top{
+    width:200px;
+    height:140px;
+    margin:0 auto;
+    border-bottom:1px solid white;
+}
+.zhezhao .smallbox .top h2{
+   color:white;
+   padding-top:10px;
+   font-size:22px;
+   font-weight:normal;
+}
+.zhezhao .smallbox .top p{
+     color:white;
+     font-size:12px;
+     padding-top:10px;
+     line-height:18px;
+}
+.zhezhao .smallbox .top .biaoqian input{
+    padding-left:20px;
+}
+.zhezhao .smallbox .top .biaoqian span{
+     color:white;
+     font-size:12px;
+     padding-left:5px;
+}
+.zhezhao .smallbox .bottom{
+    width:200px;
+    height:50px;
+    padding-left:15px;
+}
+.zhezhao .smallbox .bottom a{
+    font-size:14px;
+    color:white;
+    padding-top:10px;
+}
+.zhezhao .smallbox .bottom .aa{
+   padding-left:65px;
+ }
+ .zhezhao .smallbox .bottom img{
+     padding-top:7px;
+ }
+.zhezhao .smallbox .bottom span{
+    color:white;
+    font-size:14px;
+    padding-top:8px;
+}
+//生产环境
+.huanjing{
+    width:100%;
+    height:200px;
+    background-color:#f4f7ef;
+}
+.huanjing .zhongjian{
+    width:982px;
+    height:200px;
+    margin:0 auto;
+}
+.huanjing .zhongjian .ss{
+    width:210px;
+    height:200px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #e9ece4;
+    margin-right:33px;
+    float:left;
+ }
+.zhongjian .ss .ss1_h3{
+    font-weight:100;
+    color:#86ac55;
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url(../images/11.png);
+    background-repeat:no-repeat;
+    background-position:left;  
+    padding-left:45px;
+    margin-top:35px;
+    vertical-align: middle;
+}
+.zhongjian .ss p{
+    font-size:12px;
+    color:#afb99d;
+    margin-top:10px;
+}
+.zhongjian .ss .ss2_h3{
+    font-weight:100;
+    color:#86ac55;
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url(../images/12.png);
+    background-repeat:no-repeat;
+    background-position:left;  
+    padding-left:45px;
+    margin-top:35px;
+    vertical-align: middle;
+}
+.zhongjian .ss .ss3_h3{
+    font-weight:100;
+    color:#86ac55;
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url(../images/12.png);
+    background-repeat:no-repeat;
+    background-position:left;  
+    padding-left:45px;
+    margin-top:35px;
+    vertical-align: middle;
+}
+.zhongjian .ss .ss3_h3{
+    font-weight:100;
+    color:#86ac55;
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url(../images/13.png);
+    background-repeat:no-repeat;
+    background-position:left;  
+    padding-left:45px;
+    margin-top:35px;
+    vertical-align: middle;
+}
+.huanjing .zhongjian .sss{
+    width:215px;
+    height:200px;
+    margin-right:33px;
+    float:left;
+ }
+.zhongjian .sss .ss4_h3{
+    font-weight:100;
+    color:#86ac55;
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url(../images/11.png);
+    background-repeat:no-repeat;
+    background-position:left;  
+    padding-left:45px;
+    margin-top:35px;
+}
+.zhongjian .sss p{
+    font-size:12px;
+    color:#afb99d;
+    margin-top:10px;
+}
+//官方网站
+.dd{
+    width:982px;
+    height:35px;
+    margin: 0 auto;
+    border-top-width:1px;
+    border-top-style:solid;
+    border-top-color:#e5e8df;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:#e5e8df;
+}
+.dd .left  span{
+    font-size:12px;
+    color:#a5bf67;
+    vertical-align: middle;
+    background-image: url(../images/官方网站.png);
+    background-repeat: no-repeat;
+    display:inline-block;
+    background-position:left;
+    padding-left:15px;
+    margin-top:13px;
+}
+.dd .right .zz{
+    color:#a5bf67;
+    font-size:12px;
+    float:left;
+    padding-left:455px;
+    padding-top:12px;
+}
+.dd .right span{
+    color:#a5bf67;
+    font-size:12px;
+    float:left;
+    padding-top:12px;
+    padding-left:12px;
+}
+.dd .right a{
+  padding-top:5px;
+  padding-left:8px;
+  display:inline-block;
+}
+//尾部
+.footer{
+    width:982px;
+    height:88px;
+    margin:0 auto;
+}
+.footer  .left span{
+    font-size:12px;
+    color:#4a8e13;
+    display:inline-block;
+    padding-top:35px;
+    padding-left:375px;
+}
+.footer .left  span a{
+    color:#4a8e13;
+}
+
+.footer .left p{
+    font-size:12px;
+    color:#a8aaae;
+    padding-left:310px;
+    padding-top:10px;
+    
+}
+.footer .right a{
+    display:inline-block;
+    float:left;
+    padding-left:35px;
+    padding-top:15px;
+}

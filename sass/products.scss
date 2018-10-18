@@ -1,0 +1,239 @@
+@charset "utf-8";
+body,div,p,ul,ol,dl,dt,dd,table,tr,td,hr,form,h1,h2,h3,h4,h5,h6,fieldset,a,span,strong,b,em,i,label,img,input,select,textarea{
+    margin:0;
+    padding:0;
+}
+    
+
+body,html{
+    height:100%;
+}
+a{
+   text-decoration:none;
+ }
+ ol,ul{
+     margin:0;
+     padding:0;
+     list-style:none;
+ }
+ //头部导航
+.nav{
+    width:980px;
+    height:100px;
+    margin: 0 auto;
+   }
+.nav .left{
+    float:left;
+    margin-top:25px;
+}
+.nav .left img{
+    width:150px;
+    height:62px;
+ }
+.nav .right{
+    float:left;
+    margin-right:64px;
+    margin-top:42px;
+    margin-left:80px;
+ }
+.nav  .right .aa{
+     float:left;
+ }
+.nav .right .aa a{
+    color:#7fa967;
+    font-size:16px;
+    width:98px;
+    height:50px;
+    line-height: 50px;
+    display:inline-block;
+    border-right:1px solid #e4f1c6;
+    text-align: center;
+   
+}
+.nav .right .login {
+    float:right;
+    line-height: 60px;
+    margin-left:45px;
+    
+}
+.nav .right .login a{
+    color:#9abd8c;
+    font-size:12px;
+}
+.nav .right .login .twoa{
+   margin-left:20px;
+}
+.nav .right .login p{
+   display:inline-block;
+}
+.denglu:hover .onea{
+    border:1px solid #d3f3b9;
+    border-radius:4px;
+}
+.zhuce:hover .twoa{
+    border:1px solid #d3f3b9;
+    border-radius:4px;
+}
+//图片
+.picture{
+    width:980px;
+    height:300px;
+    background-image: url(../images/3.jpg);
+    background-repeat:no-repeat;
+    margin:30px auto 0;
+ }
+ //全部产品
+.bigbox{
+    width:982px;
+    height:49px;
+    margin:0 auto;
+    padding-top:35px;
+}
+.bigbox .w1{
+    width:195.5px;
+    height:50px;
+    float: left;
+    background-color:#02720c;
+    text-align: center;
+    border-right:1px solid #c8e0c4;
+}
+.bigbox .w1 p{
+    color:white;
+    font-size:14px;
+    padding-top: 6px;
+}
+.bigbox .w1 span{
+    color:white;
+    font-size:12px;
+    display:inline-block;  
+}
+.bigbox .w2{
+    width:195.5px;
+    height:50px;
+    float: left;
+    background-color:#ebf3e4;
+    text-align: center;
+ }
+.bigbox .w2 p{
+    color:#02720c;
+    font-size:14px;
+    padding-top: 6px;
+}
+.bigbox .w2 span{
+    color:#dfe483;
+    font-size:12px;
+    display:inline-block;  
+}
+.w2:hover{
+    background-color:#02720c;
+ }
+.w2:hover p{
+    color:#f5fbef;
+ }
+ .w2:hover span{
+    color:#f5fbef;
+ }
+// 产品
+.demo{
+    width:980px;
+    height:2320px;
+    background-color:pink;
+    margin:35px auto 0;
+}
+.demo .dangao{
+    width:980px;
+    height:232px;
+    background-color:skyblue;
+    border-bottom: 1px dotted #eaf2db; 
+}
+.demo .dangao .left{
+    width:196px;
+    height:232px;
+    float:left;
+}
+.demo .dangao .left img{
+    width:207px;
+    height:180px;
+}
+.demo .dangao .center{
+    width:483px;
+    height:232px;
+    float:left;
+    margin-left:54px;
+}
+.demo .dangao .center h2{
+    font-weight:100;
+    color:#608051;
+    margin-top:26px; 
+}
+.demo .dangao .center .p_one{
+    font-size:14px;
+    color:#a9b180;
+    margin-top:10px;
+}
+.demo .dangao .center p{
+    font-size:13px;
+    color:#c6cdc5;
+    margin-top:12px;
+}
+.demo .dangao .center .rg{
+    width:130px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    background-color:#eaf2db;
+    border-radius:3px;
+    margin-top:36px;
+    float:right;
+}.demo .dangao .center .rg a{
+    font-size:14px;
+    color:#b7d94e;
+}
+.rg:hover{
+    background-color:#408144;
+    color:white;
+}
+.demo .dangao .right{
+    width:247px;
+    height:232px;
+    background-color:burlywood;
+    float:left;
+    font-size:12px;
+}
+.demo .dangao .right .xian{
+    border-bottom: 1px dotted #eaf2db;
+    border-top: 1px dotted #eaf2db; 
+    margin-top:15px;
+    height:27px;
+    line-height:27px;
+}
+.demo .dangao .right .xian lable{
+    cursor: default;
+    color:#afb88d;
+    margin-left:40px;
+ }
+.demo .dangao .right .xian span{
+    color:#ff7857;
+}
+.demo .dangao .right .xian i{
+    margin-left:7px;
+    color: #b1b5a5;
+    text-decoration: line-through;
+}
+.demo .dangao .right .no{
+    height:27px;
+    line-height:27px;
+}
+.demo .dangao .right .no lable{
+    cursor: default;
+    color:#afb88d;
+    margin-left:40px;
+ }
+.demo .dangao .right .no span{
+    color:#ff7857;
+}
+.demo .dangao .right .no i{
+    margin-left:7px;
+    color: #b1b5a5;
+    text-decoration: line-through;
+}
